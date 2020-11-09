@@ -1,0 +1,6 @@
+[core]
+    remote = models
+['remote "models"']
+    url = s3://spot-data/spot_models
+    endpointurl = http://192.168.1.224:9000
+    credentialpath = /home/gaowei/.aws/credentials
